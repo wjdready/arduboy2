@@ -7,7 +7,11 @@
 int main()
 {
     arduboy2 arduboy;
-    arduboy.drawFastHLine(50, 5, 20, 1);
+
+    arduboy.printString("Hello World\n");
+
+    arduboy << "So Great!\n";
+    
     arduboy.drawRect(20, 0, 50, 50, 1);
     arduboy.display();
     usleep(30*1000);
