@@ -17,4 +17,6 @@ int main()
     usleep(30*1000);
     arduboy.clear(0);
     
+
+    // done
 }
