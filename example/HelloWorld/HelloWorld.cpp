@@ -11,7 +11,7 @@ int main()
     arduboy.printString("Hello World\n");
 
     arduboy << "So Great!\n";
-    
+    arduboy << "So dfdfdff!\n";
     arduboy.drawRect(20, 0, 50, 50, 1);
     arduboy.display();
     usleep(30*1000);
