@@ -9,8 +9,6 @@ int main()
     arduboy2 arduboy;
 
     arduboy.printString("Hello World\n");
-
-    arduboy << "So Great!\n";
     
     arduboy.drawRect(20, 0, 50, 50, 1);
     arduboy.display();
